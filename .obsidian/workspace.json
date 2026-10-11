@@ -11,12 +11,14 @@
             "id": "fe0499ffe4538373",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "pages/images/Pasted image 20261011123836.png"
+                "file": "pages/Linux/Inode в Lunux.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20261011123836"
+              "icon": "lucide-file",
+              "title": "Inode в Lunux"
             }
           }
         ]
@@ -186,10 +188,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "63606fe7912e16f3",
+  "active": "fe0499ffe4538373",
   "lastOpenFiles": [
-    "pages/images/Pasted image 20261011172552.png",
     "pages/images/Pasted image 20261011123836.png",
+    "pages/images/Pasted image 20261011172552.png",
     "pages/images/Pasted image 20261011171704.png",
     "pages/Linux/Inode в Lunux.md",
     "pages/images/Pasted image 20261011223151.png",
