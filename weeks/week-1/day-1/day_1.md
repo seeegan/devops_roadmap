@@ -126,8 +126,6 @@ Inode — это метаданные файла. Монтирование — �
 
 ## Артефакты
 
-- Конспект: [Inode в Linux](../../pages/Linux/Inode%20в%20Linux.md)
+- Конспект: [Inode в Linux](../../../pages/Linux/Inode_in_Linux.md)
 - Практика: терминал (команды в конспекте)
 - Коммит: `day 1: inode, filesystems, mounting`
-
-```
