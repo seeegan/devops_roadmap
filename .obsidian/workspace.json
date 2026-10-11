@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "a9afba955f847fdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "6562acb47cc9ec44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe0499ffe4538373",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "pages/images/Pasted image 20261011123836.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20261011123836"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f38cb0bf71631520",
+    "type": "split",
+    "children": [
+      {
+        "id": "52d03f155efadb53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63606fe7912e16f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ef8a33b8f75faa3e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d41211a4dd375ee6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1ac5aebaca16bfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a9e305a3088ff99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f2f41ba039b132f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/Linux/Inode в Lunux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2341f8a80a33d039",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/Linux/Inode в Lunux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2152f5d6d22af8bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0ee00163ca33f93e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7cc8b8217afe67e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/Linux/Inode в Lunux.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "63606fe7912e16f3",
+  "lastOpenFiles": [
+    "pages/images/Pasted image 20261011172552.png",
+    "pages/images/Pasted image 20261011123836.png",
+    "pages/images/Pasted image 20261011171704.png",
+    "pages/Linux/Inode в Lunux.md",
+    "pages/images/Pasted image 20261011223151.png",
+    "pages/images/Pasted image 20261011222944.png",
+    "pages/images/Pasted image 20261011220557.png",
+    "pages/images/Pasted image 20261011215809.png",
+    "pages/images/Pasted image 20261011215558.png",
+    "pages/images/Pasted image 20261011212646.png",
+    "pages/images/Pasted image 20261011212445.png",
+    "pages/images/Pasted image 20261011212225.png",
+    "pages/Linux/Файловая система в Linux.md"
+  ]
+}
