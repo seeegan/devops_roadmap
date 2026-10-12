@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="gif/gif.gif" width="140" height="140" alt="avatar" />
+
 # Sergey Ganin
 
 **DevOps / Cloud Platform Engineer**
@@ -9,8 +11,6 @@
 [📄 Download CV](CV/Sergey_Ganin_CV.pdf)
 
 </div>
-
-![GIF](/gif/gif.gif)
 
 ---
 
@@ -58,6 +58,9 @@ devops_roadmap/
 │       ├── day-1/
 │       ├── day-2/
 │       └── day-3/
+│
+├── assets/
+│   └── avatar.gif          # Аватар
 │
 ├── CV/
 │   └── Sergey_Ganin_CV.pdf # Резюме
