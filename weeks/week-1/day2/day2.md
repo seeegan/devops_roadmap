@@ -41,7 +41,7 @@
 > Хмммм, наверное я бы просто в конце команды поставил `| sort -h`
 - Пример:
 ```shell
-du -ah /home/seegan/ | sort
+du -ah /home/seegan/ | sort -h
 ```
 ![](../../../pages/attachments/Pasted%20image%2020261012234524.png)
 ### 3. lsof — list open files
