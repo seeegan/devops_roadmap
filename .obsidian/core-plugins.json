@@ -15,7 +15,7 @@
   "note-composer": true,
   "command-palette": true,
   "slash-command": false,
-  "editor-status": true,
+  "editor-status": false,
   "bookmarks": true,
   "zk-prefixer": false,
   "random-note": false,
