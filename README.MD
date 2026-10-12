@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="gif/gif.gif" width="140" height="140" alt="avatar" />
+<img src="gif/gif.gif" width="180" height="180" alt="avatar" />
 
 # Sergey Ganin
 
@@ -59,8 +59,8 @@ devops_roadmap/
 │       ├── day-2/
 │       └── day-3/
 │
-├── assets/
-│   └── avatar.gif          # Аватар
+├── gif/
+│   └── gif.gif             # Аватар
 │
 ├── CV/
 │   └── Sergey_Ganin_CV.pdf # Резюме
