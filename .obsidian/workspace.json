@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Linux/Inode_in_Linux.md",
+                "file": "weeks/week-1/day2/day2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inode_in_Linux"
+              "title": "day2"
             }
           }
         ]
@@ -190,22 +190,23 @@
   },
   "active": "089536610ec87f48",
   "lastOpenFiles": [
+    "pages/Linux/du,df,lsof.md",
+    "weeks/week-1/day2/day2.md",
+    "weeks/week-1/day-1/day_1.md",
+    "pages/attachments/Pasted image 20261012234524.png",
+    "pages/attachments/Pasted image 20261012233655.png",
+    "pages/attachments/Pasted image 20261012233421.png",
+    "pages/attachments/Pasted image 20261012233135.png",
+    "pages/attachments/Pasted image 20261012232433.png",
+    "pages/attachments/Pasted image 20261012231500.png",
+    "pages/attachments/Pasted image 20261012231352.png",
+    "pages/attachments/Pasted image 20261012231017.png",
+    "pages/attachments/Pasted image 20261012230730.png",
+    "pages/attachments/Pasted image 20261012230501.png",
     "pages/Linux/Inode_in_Linux.md",
     "pages/Linux/Linux.md",
     "pages/Linux/Coreutils и конвейеры. Обработка текста.md",
-    "pages/attachments/Pasted image 20260418160239.png",
-    "weeks/week-1/day2/day2.md",
-    "weeks/week-1/day-1/day_1.md",
     "weeks/week-1/day2",
-    "pages/attachments/Pasted image 20261011123836.png",
-    "pages/attachments/Pasted image 20261011172552.png",
-    "pages/attachments/Pasted image 20261011171704.png",
-    "pages/attachments/Pasted image 20261011223151.png",
-    "pages/attachments/Pasted image 20261011222944.png",
-    "pages/attachments/Pasted image 20261011220557.png",
-    "pages/attachments/Pasted image 20261011215809.png",
-    "pages/attachments/Pasted image 20261011215558.png",
-    "pages/attachments/Pasted image 20261011212646.png",
     "pages/Linux/Файловая система в Linux.md"
   ]
 }
