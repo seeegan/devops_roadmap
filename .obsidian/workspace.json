@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "a9afba955f847fdf",
+    "type": "split",
+    "children": [
+      {
+        "id": "942cccb22968f06c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "089536610ec87f48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/Linux/du,df,lsof.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "du,df,lsof"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f38cb0bf71631520",
+    "type": "split",
+    "children": [
+      {
+        "id": "52d03f155efadb53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63606fe7912e16f3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ef8a33b8f75faa3e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d41211a4dd375ee6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b1ac5aebaca16bfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a9e305a3088ff99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f2f41ba039b132f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "pages/Linux/Inode в Lunux.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2341f8a80a33d039",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "pages/Linux/Inode в Lunux.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2152f5d6d22af8bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0ee00163ca33f93e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7cc8b8217afe67e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "pages/Linux/Inode в Lunux.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "089536610ec87f48",
+  "lastOpenFiles": [
+    "assets/field.gif",
+    "assets/header.svg",
+    "assets/Your Name Manga GIF.gif",
+    "assets",
+    "pages/Linux/Linux.md",
+    "README.MD",
+    "weeks/week-1/jobs.md",
+    "weeks/week-1/day3/day3.md",
+    "weeks/week-1/day2/day2.md",
+    "weeks/week-1/day1/day_1.md",
+    "weeks/week-1/day1",
+    "weeks/week-1/day3",
+    "pages/attachments/Pasted image 20261012234524.png",
+    "pages/attachments/Pasted image 20261012233655.png",
+    "pages/attachments/Pasted image 20261012233421.png",
+    "pages/attachments/Pasted image 20261012233135.png",
+    "pages/attachments/Pasted image 20261012232433.png",
+    "pages/attachments/Pasted image 20261012231500.png",
+    "pages/attachments/Pasted image 20261012231352.png",
+    "pages/attachments/Pasted image 20261012231017.png",
+    "pages/attachments",
+    "pages/Linux/du,df,lsof.md",
+    "pages/images",
+    "weeks/week-1/day-1/day_1.md",
+    "pages/Linux/Inode_in_Linux.md",
+    "pages/Linux/Coreutils и конвейеры. Обработка текста.md",
+    "weeks/week-1/day2",
+    "pages/Linux/Файловая система в Linux.md"
+  ]
+}
