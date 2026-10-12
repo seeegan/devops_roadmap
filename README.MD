@@ -10,44 +10,36 @@
 
 </div>
 
----
-
-## Introduction
-
-```
-seegan@devops:~$ ./boot.sh
-
-[  OK  ] Loading Linux kernel ................. done
-[  OK  ] Mounting filesystems ................. done
-[  OK  ] Starting network stack ............... done
-[  OK  ] Initializing container runtime ....... done
-[  OK  ] Starting orchestration layer ......... done
-[  OK  ] Connecting CI/CD pipeline ............ done
-[  OK  ] Provisioning infrastructure .......... done
-[  OK  ] Starting monitoring stack ............ done
-[  OK  ] Loading platform engineer ........... done
-
-seegan@devops:~$ whoami
-Sergey Ganin — DevOps / Cloud Platform Engineer
-```
+![GIF](/gif/gif.gif)
 
 ---
 
-## Stack
+## О репозитории
 
-```
-seegan@devops:~$ systemctl status platform
+Материалы подготовки к DevOps / Cloud Platform Engineer позиции.
 
-● platform.service — DevOps / Cloud Platform Engineer
-     Active: active (running) since 2024
+Здесь я собираю конспекты по темам, ежедневные отчёты о практике и рабочие заметки. Репозиторий ведётся открыто — каждый день коммит.
 
-  linux         ● ready        docker        ● ready
-  kubernetes    ● ready        helm          ● ready
-  ci-cd         ● ready        gitops        ● ready
-  terraform     ● ready        ansible       ● ready
-  prometheus    ● ready        grafana       ● ready
-  bash          ● ready        python        ● ready
-```
+---
+
+## О себе
+
+DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и Infrastructure as Code. Основной фокус — GitOps, мониторинг и надёжность микросервисов.
+
+Открыт к предложениям: удалённо или релокация.
+
+---
+
+## Стек
+
+- **ОС:** Linux (Ubuntu, Debian), macOS
+- **Контейнеры:** Docker, Kubernetes, Helm, Helmfile, OpenShift
+- **CI/CD:** Jenkins, GitLab CI, ArgoCD
+- **IaC:** Ansible, Terraform
+- **Мониторинг:** Prometheus, Grafana, VictoriaMetrics, Zabbix, ELK
+- **Сети:** TCP/IP, DNS, HTTP/HTTPS, TLS, Istio
+- **Скрипты:** Bash, Python
+- **Базы данных:** PostgreSQL, MongoDB
 
 ---
 
@@ -78,7 +70,7 @@ devops_roadmap/
 
 <div align="center">
 
-📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) &nbsp;·&nbsp; 💬 [Telegram](https://t.me/seegan1) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
+📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) · 💬 [Telegram](https://t.me/seegan1) · 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
 
 [📄 Download CV](CV/Sergey_Ganin_CV.pdf)
 
