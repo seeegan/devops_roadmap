@@ -6,39 +6,64 @@
 
 📍 Yerevan, Armenia · 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
 
+[📄 Download CV](Sergey_Ganin_CV.pdf)
+
 </div>
 
 ---
 
-## О репозитории
+## Introduction
 
-Здесь я собираю материалы подготовки к DevOps / Cloud Platform Engineer:
+```
+seegan@devops:~$ ./boot.sh
 
-- **Дневник** — ежедневные отчёты: что разобрал, что делал на практике
-- **База знаний** — конспекты по темам
-- **Трекер откликов** — таблица вакансий и статусов
+[  OK  ] Loading Linux kernel ................. done
+[  OK  ] Mounting filesystems ................. done
+[  OK  ] Starting network stack ............... done
+[  OK  ] Initializing container runtime ....... done
+[  OK  ] Starting orchestration layer ......... done
+[  OK  ] Connecting CI/CD pipeline ............ done
+[  OK  ] Provisioning infrastructure .......... done
+[  OK  ] Starting monitoring stack ............ done
+[  OK  ] Loading platform engineer ........... done
 
-Каждый день — коммит.
+seegan@devops:~$ whoami
+Sergey Ganin — DevOps / Cloud Platform Engineer
+```
 
 ---
 
-## Стек
+## Stack
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   LINUX        ████████████████████████░░░░░░░░░░░░        │
+│   DOCKER       ██████████████████████░░░░░░░░░░░░░░        │
+│   KUBERNETES   ████████████████░░░░░░░░░░░░░░░░░░░░        │
+│   CI/CD        ████████████████████░░░░░░░░░░░░░░░░        │
+│   IaC          ██████████████████░░░░░░░░░░░░░░░░░░        │
+│   MONITORING   ████████████████████░░░░░░░░░░░░░░░░        │
+│   NETWORKING   ████████████░░░░░░░░░░░░░░░░░░░░░░░░        │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
 
-**Операционные системы**
+**Operating Systems**
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 
-**Контейнеры и оркестрация**
+**Containers & Orchestration**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
 
-**CI/CD и GitOps**
+**CI/CD & GitOps**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
@@ -49,17 +74,26 @@
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
-**Мониторинг**
+**Monitoring & Observability**
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-621773?style=for-the-badge&logo=victoriametrics&logoColor=white)
 ![Zabbix](https://img.shields.io/badge/Zabbix-CC0000?style=for-the-badge&logo=zabbix&logoColor=white)
+![ELK](https://img.shields.io/badge/ELK-005571?style=for-the-badge&logo=elastic&logoColor=white)
 
-**Языки и базы данных**
+**Scripting & Databases**
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Web & Networking**
+
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
 
 </div>
 
@@ -100,18 +134,19 @@
 ```
 devops_roadmap/
 ├── pages/              # База знаний
-│   ├── Linux/          # inode, монтирование, df/du/lsof, процессы
-│   ├── Docker/         # namespace, cgroup, runc
-│   ├── Ansible/        # playbooks, roles, шаблоны
-│   └── Python/         # основы, автоматизация
+│   ├── Linux/
+│   ├── Docker/
+│   ├── Ansible/
+│   └── Python/
 │
 ├── weeks/              # Дневник по дням
 │   └── week-1/
-│       ├── day-1/      # Файловые системы, inode, монтирование
-│       ├── day-2/      # df, du, lsof +L1
-│       └── day-3/      # Процессы и сигналы
+│       ├── day-1/
+│       ├── day-2/
+│       └── day-3/
 │
 ├── jobs.md             # Таблица откликов
+├── Sergey_Ganin_CV.pdf # Резюме
 └── README.md           # Этот файл
 ```
 
@@ -150,5 +185,7 @@ devops_roadmap/
 <div align="center">
 
 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) &nbsp;·&nbsp; 💬 [Telegram](https://t.me/seegan1) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
+
+[📄 Download CV](Sergey_Ganin_CV.pdf)
 
 </div>
