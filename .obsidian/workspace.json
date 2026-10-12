@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weeks/week-1/day-1/day_1.md",
+                "file": "weeks/week-1/day2/day2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day_1"
+              "title": "day2"
             }
           }
         ]
@@ -190,8 +190,10 @@
   },
   "active": "fb824831d367353a",
   "lastOpenFiles": [
-    "pages/Linux/Inode_in_Linux.md",
     "weeks/week-1/day-1/day_1.md",
+    "weeks/week-1/day2/day2.md",
+    "weeks/week-1/day2",
+    "pages/Linux/Inode_in_Linux.md",
     "pages/images/Pasted image 20261011123836.png",
     "pages/images/Pasted image 20261011172552.png",
     "pages/images/Pasted image 20261011171704.png",
