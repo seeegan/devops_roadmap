@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Linux/du,df,lsof.md",
+                "file": "README.MD",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "du,df,lsof"
+              "title": "README"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "089536610ec87f48",
   "lastOpenFiles": [
+    "pages/Linux/du,df,lsof.md",
     "assets/field.gif",
     "assets/header.svg",
     "assets/Your Name Manga GIF.gif",
@@ -209,9 +210,7 @@
     "pages/attachments/Pasted image 20261012232433.png",
     "pages/attachments/Pasted image 20261012231500.png",
     "pages/attachments/Pasted image 20261012231352.png",
-    "pages/attachments/Pasted image 20261012231017.png",
     "pages/attachments",
-    "pages/Linux/du,df,lsof.md",
     "pages/images",
     "weeks/week-1/day-1/day_1.md",
     "pages/Linux/Inode_in_Linux.md",
