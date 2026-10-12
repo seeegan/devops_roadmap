@@ -1,228 +1,158 @@
-<div align="center">
+```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║    ██████╗ ███████╗██╗   ██╗ ██████╗ ██████╗ ███████╗                    ║
+║    ██╔══██╗██╔════╝██║   ██║██╔═══██╗██╔══██╗██╔════╝                    ║
+║    ██║  ██║█████╗  ██║   ██║██║   ██║██████╔╝███████╗                    ║
+║    ██║  ██║██╔══╝  ╚██╗ ██╔╝██║   ██║██╔═══╝ ╚════██║                    ║
+║    ██████╔╝███████╗ ╚████╔╝ ╚██████╔╝██║     ███████║                    ║
+║    ╚═════╝ ╚══════╝  ╚═══╝   ╚═════╝ ╚═╝     ╚══════╝                    ║
+║                                                                           ║
+║    R O A D M A P  ·  from OPS to DevOps in 8 weeks                       ║
+║                                                                           ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+```
 
-# 🚀 DevOps Roadmap
-
-**Мой путь от OPS-инженера до DevOps / Cloud Platform Engineer**
-
-[![Made with Obsidian](https://img.shields.io/badge/Made%20with-Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md)
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://www.markdownguide.org)
-[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org)
-
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
-[![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)](https://www.ansible.com)
-[![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io)
-
-📍 Yerevan, Armenia &nbsp;|&nbsp; 📧 seeganfocus@gmail.com &nbsp;|&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
-
-</div>
-
----
-
-## 📖 О репозитории
-
-Это не просто «конспекты». Это **система подготовки к DevOps-позиции**, которую я веду каждый день:
-
-- 📝 **Дневник** — ежедневные отчёты о том, что разобрал и сделал
-- 📚 **База знаний** — структурированные конспекты по темам
-- 🎯 **Трекер** — таблица откликов на вакансии и статус интервью
-- 🗺 **Roadmap** — план подготовки на 8 недель
-
-**Цель:** получить оффер DevOps / Cloud Platform Engineer в Армении или удалённо.
+> **«70% качества, опубликовано, можешь объяснить — достаточно.»**
+> 
+> Мой личный принцип. Не гонюсь за идеалом — гонюсь за оффером.
 
 ---
 
-## 🎯 Прогресс
+## 🎯 Зачем этот репозиторий
 
-| Неделя | Тема | Статус |
-|---|---|---|
-| Week 1 — Day 1 | Файловые системы, inode, монтирование | ✅ |
-| Week 1 — Day 2 | df, du, lsof +L1 — диагностика диска | ✅ |
-| Week 1 — Day 3 | Процессы и сигналы | ⏳ |
-| Week 1 — Day 4 | — | ⬜ |
-| Week 1 — Day 5 | — | ⬜ |
+Не для «красивой витрины скиллов». А чтобы **через 2 месяца я получил оффер DevOps / Cloud Platform Engineer**.
 
-**Всего дней:** 3 / 40  
-**Откликов на вакансии:** 6  
-**Интервью:** 0
+Каждый файл — часть системы. Каждый день — коммит. Каждая тема — воспроизведена в VM и проговорена вслух.
+
+**Где я сейчас:**
+
+- 📍 Yerevan, Armenia
+- 🎯 Ищу: DevOps / Cloud Platform Engineer (удалённо / релокация)
+- 📧 seeganfocus@gmail.com · [Telegram](https://t.me/seegan1) · [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
 
 ---
 
-## 📂 Структура репозитория
+## 📊 Цифры (обновляется каждую неделю)
 
 ```
-devops_roadmap/
-├── 📁 pages/                # База знаний по темам
-│   ├── Linux/               # Linux: inode, монтирование, df/du/lsof, процессы
-│   ├── Docker/              # Docker: namespace, cgroup, runc
-│   ├── Ansible/             # Ansible: playbooks, roles, шаблоны
-│   └── Python/              # Python: основы, автоматизация
-│
-├── 📁 weeks/                # Дневник по дням
-│   └── week-1/
-│       ├── day-1/           # Файловые системы, inode, монтирование
-│       ├── day-2/           # df, du, lsof +L1
-│       └── day-3/           # Процессы и сигналы
-│
-├── 📁 tools/                # Инструменты
-│   └── quest_tracker.html   # Геймифицированный трекер привычек
-│
-├── 📄 roadmap.md            # План подготовки на 8 недель
-├── 📄 jobs.md               # Таблица откликов на вакансии
-└── 📄 README.md             # Этот файл
+┌─────────────────────────────────────────────────────────┐
+│  ДНЕЙ ЗАКРЫТО          ████████░░░░░░░░░░░░  3 / 40    │
+│  ОТКЛИКОВ              ████████████░░░░░░░░  6         │
+│  ИНТЕРВЬЮ              ░░░░░░░░░░░░░░░░░░░░  0         │
+│  ОФФЕРОВ               ░░░░░░░░░░░░░░░░░░░░  0         │
+│                                                         │
+│  Дисциплина: 3 дня подряд без пропусков                │
+│  Средний темп: 1 тема / день                            │
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 📚 Что уже разобрано
+## 🚀 Что уже разобрал
 
-### 🐧 Linux — база
+| # | Тема | Планировал | По факту | Что сделал |
+|---|---|---|---|---|
+| 1 | Файловые системы, inode, монтирование | 2 ч | **8 ч** | Создал ФС через loopback, забил inode до `No space left on device`, восстановил файл через `/proc/<PID>/fd` |
+| 2 | df, du, lsof +L1 | 1.5 ч | **6 ч** | Воспроизвёл сценарий «диск полон, `du` пуст», нашёл `(deleted)` через `lsof +L1` |
+| 3 | Процессы и сигналы | 1.5 ч | **?** | В работе |
 
-<details>
-<summary><b>Day 1 — Файловые системы, inode, монтирование</b></summary>
+> **Честно про тайминг.** Планировал по 2 часа на тему. По факту — весь день. Это нормально: глубина важнее скорости. Но в план на неделю закладываю реальные цифры.
 
-- Что такое inode, что хранит, что нет
-- Отличие inode от file descriptor
-- Слои абстракции: диск → раздел → ФС → точка монтирования
-- Loopback-устройства (`losetup`, `mount -o loop`)
-- Создание ФС через `mkfs.ext4`
-- Сценарий «кончились inode» на практике
-
-📄 [Отчёт](weeks/week-1/day-1/day_1.md) · 📝 [Конспект](pages/Linux/Inode%20в%20Linux.md)
-
-</details>
-
-<details>
-<summary><b>Day 2 — df, du, lsof +L1: диагностика диска</b></summary>
-
-- Разница `df` vs `du`
-- `df -h`, `df -i`, `df -hT` — что показывают
-- `du -sh`, `--max-depth`, `-ah`, `sort -h`
-- `lsof -p`, `-i`, `+L1` — работа с открытыми файлами
-- Классический сценарий: «диск заполнен, du пустой»
-- Почему `rm` не всегда освобождает место
-
-📄 [Отчёт](weeks/week-1/day-2/day2.md) · 📝 [Конспект](pages/Linux/df_du_lsof.md)
-
-</details>
-
-<details>
-<summary><b>Day 3 — Процессы и сигналы</b></summary>
-
-- `ps aux`, `ps -ef`, `top`, `htop`
-- Состояния процессов: R, S, D, Z, T
-- D-state — почему не убивается даже `kill -9`
-- Zombie-процессы
-- Сигналы: SIGTERM, SIGKILL, SIGHUP, SIGSTOP, SIGCONT
-- Приоритеты: `nice`, `renice`
-
-📄 [Отчёт](weeks/week-1/day-3/day_3.md) · 📝 [Конспект](pages/Linux/processes.md)
-
-</details>
-
----
-
-## 🛠 Стек, который изучаю
-
-<div align="center">
-
-| Категория | Технологии |
-|---|---|
-| **ОС** | Linux (Ubuntu, Debian), macOS |
-| **Контейнеры** | Docker, Kubernetes, Helm, Helmfile |
-| **CI/CD** | Jenkins, GitLab CI, ArgoCD |
-| **IaC** | Ansible, Terraform |
-| **Мониторинг** | Prometheus, Grafana, VictoriaMetrics, Zabbix, ELK |
-| **Сети** | TCP/IP, DNS, HTTP/HTTPS, TLS, Istio |
-| **Скрипты** | Bash, Python |
-| **БД** | PostgreSQL, MongoDB |
-
-</div>
+📁 [Все дневники →](weeks/week-1/)  
+📚 [Все конспекты →](pages/)
 
 ---
 
 ## 🗓 План на 8 недель
 
-| Неделя | Тема | Практика |
-|---|---|---|
-| **1** | Linux, сети, Git | Linux runbook, Docker, CI/CD |
-| **2** | Docker, CI/CD | Dockerfile, GitLab CI, Jenkins |
-| **3** | Kubernetes core | Deployment, Service, Ingress |
-| **4** | Helm, GitOps | Helm chart, ArgoCD |
-| **5** | Мониторинг, логи | Prometheus, Grafana, ELK |
-| **6** | Terraform, Ansible, Cloud | VPC, VM, S3, IAM |
-| **7** | SRE, Security | SLI/SLO, RBAC, TLS |
-| **8** | Mock-интервью, capstone | Capstone-проект |
+```
+Неделя 1  ████░░░░░░  Linux, сети, Git
+Неделя 2  ░░░░░░░░░░  Docker, CI/CD
+Неделя 3  ░░░░░░░░░░  Kubernetes core
+Неделя 4  ░░░░░░░░░░  Helm, GitOps
+Неделя 5  ░░░░░░░░░░  Мониторинг, логи
+Неделя 6  ░░░░░░░░░░  Terraform, Ansible, Cloud
+Неделя 7  ░░░░░░░░░░  SRE, Security
+Неделя 8  ░░░░░░░░░░  Mock-интервью, capstone
+```
 
-📄 [Полный план →](roadmap.md)
+**Финал:** capstone-проект. Terraform + Ansible + K8s + Helm + ArgoCD + Prometheus + Grafana + CI. Один сильный проект вместо 10 свалок.
+
+📄 [Полный roadmap.md →](roadmap.md)
 
 ---
 
 ## 💼 Отклики на вакансии
 
-Веду таблицу всех откликов с конкретным next action:
+Веду таблицу со **следующим действием** по каждой:
 
-| Компания | Позиция | Статус |
-|---|---|---|
-| SMARTSOFT LLC | DevOps Engineer | Applied |
-| ChillBase | — | Applied |
-| Social Discovery Group | Junior System Administrator | Applied |
-| Broadridge | — | Applied |
-| BettingJobs | — | Applied |
-| Canonical | DevOps Engineer | Applied |
+| Компания | Позиция | Отклик | Next action |
+|---|---|---|---|
+| SMARTSOFT | DevOps Engineer | 10.10 | Follow-up 14.10 |
+| ChillBase | — | 10.10 | Follow-up 14.10 |
+| Social Discovery Group | Junior SysAdmin | 10.10 | Follow-up 14.10 |
+| Broadridge | — | 12.10 | Follow-up 16.10 |
+| BettingJobs | — | 12.10 | Follow-up 16.10 |
+| Canonical | DevOps Engineer | 12.10 | Ждать 5 дней |
 
 📄 [Полная таблица →](jobs.md)
 
 ---
 
-## 🎮 Геймификация
+## 🎮 Моя система дисциплины
 
-Для поддержания дисциплины использую:
+Мотивации недостаточно. Нужна **система**. У меня две:
 
-- **Бумажный трекер** — ежедневно 5 чекбоксов: DevOps, English, Armenian, Applications, Sport
-- **HTML-трекер** — визуальный quest tracker
+**1. Бумажная тетрадь.** Каждое утро за кофе — 5 чекбоксов:
+```
+[ ] DevOps — 2 ч
+[ ] English — 30 мин
+[ ] Armenian — 20 мин
+[ ] Applications — 1-3
+[ ] Sport — 30 мин
+```
+Победа дня = все 5 закрыты. Стрик не порван.
 
-📄 [Quest Tracker →](tools/quest_tracker.html)
+**2. HTML-трекер.** Визуальный quest tracker. Не залипаю в него — использую раз в день.
 
----
-
-## 📈 Философия подготовки
-
-> **70% качества, опубликовано, можешь объяснить — достаточно.**
-
-Мой подход:
-
-1. **Одна тема в день.** Не «учить Linux», а «разобрать inode».
-2. **Практика обязательна.** Не просто читаю — воспроизвожу в VM.
-3. **Конспект после практики.** Не до, не вместо — после.
-4. **Самопроверка вслух.** Проговариваю ответы, как на интервью.
-5. **Ежедневный коммит.** Регулярность > интенсивность.
+📄 [Посмотреть трекер →](tools/quest_tracker.html)
 
 ---
 
-## 📬 Контакты
+## 🧠 Что помогает мне не сдаваться
+
+- **Правило Паркинсона.** Не «весь день на DevOps», а «2 часа на одну тему».
+- **Практика > теория.** Не читаю про inode — создаю ФС и ломаю её.
+- **Конспект после практики.** Не вместо, не до — **после**.
+- **Проговариваю вслух.** Если не могу объяснить за 30 секунд — не понял.
+- **Коммит каждый день.** Регулярность > интенсивность.
+
+---
+
+## 🔥 Что дальше
+
+**Ближайшие 7 дней:**
+- [x] Day 1: Файловые системы
+- [x] Day 2: df, du, lsof
+- [ ] Day 3: Процессы и сигналы
+- [ ] Day 4: systemd
+- [ ] Day 5: Сети — TCP/IP, DNS, HTTP
+
+**Ближайший месяц:**
+- [ ] 15+ откликов на вакансии
+- [ ] Первое техническое интервью
+- [ ] Развернуть Kubernetes в VM
+- [ ] Capstone-проект начат
+
+---
 
 <div align="center">
 
-**Sergey Ganin**
+**Если у тебя похожий путь — пиши. Помогу чем смогу.**
 
-📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com)  
-💬 [Telegram @seegan1](https://t.me/seegan1)  
-💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)  
-🐙 [GitHub](https://github.com/seeegan)
-
-**Открыт к предложениям: DevOps / Cloud Platform Engineer**  
-Локация: Yerevan, Armenia · Удалённо · Релокация
-
-</div>
-
----
-
-<div align="center">
-
-⭐ Если тебе интересно следить за прогрессом — подпишись на репозиторий
-
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=seeegan.devops_roadmap)
+[![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/seegan1)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sergey-ganin-4433a343a)
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:seeganfocus@gmail.com)
 
 </div>
