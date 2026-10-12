@@ -76,36 +76,6 @@ devops_roadmap/
 
 ---
 
-## План подготовки
-
-| Неделя | Тема |
-|---|---|
-| 1 | Linux, сети, Git |
-| 2 | Docker, CI/CD |
-| 3 | Kubernetes core |
-| 4 | Helm, GitOps |
-| 5 | Мониторинг, логи |
-| 6 | Terraform, Ansible, Cloud |
-| 7 | SRE, Security |
-| 8 | Capstone-проект, mock-интервью |
-
----
-
-## Отклики
-
-Актуальная таблица — [jobs.md](jobs.md).
-
-| Компания | Позиция | Дата |
-|---|---|---|
-| SMARTSOFT | DevOps Engineer | 10.10.2026 |
-| ChillBase | — | 10.10.2026 |
-| Social Discovery Group | Junior System Administrator | 10.10.2026 |
-| Broadridge | — | 12.10.2026 |
-| BettingJobs | — | 12.10.2026 |
-| Canonical | DevOps Engineer | 12.10.2026 |
-
----
-
 <div align="center">
 
 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) &nbsp;·&nbsp; 💬 [Telegram](https://t.me/seegan1) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
