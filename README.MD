@@ -6,7 +6,7 @@
 
 **DevOps / Cloud Platform Engineer**
 
-📍 Yerevan, Armenia · 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
+📍 Armenia · 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
 
 [📄 Download CV](CV/Sergey_Ganin_CV.pdf)
 
