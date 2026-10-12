@@ -6,7 +6,7 @@
 
 📍 Yerevan, Armenia · 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) · 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
 
-[📄 Download CV](Sergey_Ganin_CV.pdf)
+[📄 Download CV](CV/Sergey_Ganin_CV.pdf)
 
 </div>
 
@@ -36,64 +36,35 @@ Sergey Ganin — DevOps / Cloud Platform Engineer
 ## Stack
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│   LINUX        ████████████████████████░░░░░░░░░░░░        │
-│   DOCKER       ██████████████████████░░░░░░░░░░░░░░        │
-│   KUBERNETES   ████████████████░░░░░░░░░░░░░░░░░░░░        │
-│   CI/CD        ████████████████████░░░░░░░░░░░░░░░░        │
-│   IaC          ██████████████████░░░░░░░░░░░░░░░░░░        │
-│   MONITORING   ████████████████████░░░░░░░░░░░░░░░░        │
-│   NETWORKING   ████████████░░░░░░░░░░░░░░░░░░░░░░░░        │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+seegan@devops:~$ systemctl status platform
+
+● platform.service — DevOps / Cloud Platform Engineer
+     Active: active (running) since 2024
+
+  linux         ● ready        docker        ● ready
+  kubernetes    ● ready        helm          ● ready
+  ci-cd         ● ready        gitops        ● ready
+  terraform     ● ready        ansible       ● ready
+  prometheus    ● ready        grafana       ● ready
+  bash          ● ready        python        ● ready
 ```
 
 <div align="center">
 
-**Operating Systems**
-
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-**Containers & Orchestration**
-
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
-
-**CI/CD & GitOps**
-
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-
-**Infrastructure as Code**
-
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-
-**Monitoring & Observability**
-
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![VictoriaMetrics](https://img.shields.io/badge/VictoriaMetrics-621773?style=for-the-badge&logo=victoriametrics&logoColor=white)
-![Zabbix](https://img.shields.io/badge/Zabbix-CC0000?style=for-the-badge&logo=zabbix&logoColor=white)
-![ELK](https://img.shields.io/badge/ELK-005571?style=for-the-badge&logo=elastic&logoColor=white)
-
-**Scripting & Databases**
-
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Web & Networking**
-
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Istio](https://img.shields.io/badge/Istio-466BB0?style=for-the-badge&logo=istio&logoColor=white)
 
 </div>
 
@@ -133,21 +104,23 @@ Sergey Ganin — DevOps / Cloud Platform Engineer
 
 ```
 devops_roadmap/
-├── pages/              # База знаний
+├── pages/                  # База знаний
 │   ├── Linux/
 │   ├── Docker/
 │   ├── Ansible/
 │   └── Python/
 │
-├── weeks/              # Дневник по дням
+├── weeks/                  # Дневник по дням
 │   └── week-1/
 │       ├── day-1/
 │       ├── day-2/
 │       └── day-3/
 │
-├── jobs.md             # Таблица откликов
-├── Sergey_Ganin_CV.pdf # Резюме
-└── README.md           # Этот файл
+├── CV/
+│   └── Sergey_Ganin_CV.pdf # Резюме
+│
+├── jobs.md                 # Таблица откликов
+└── README.md               # Этот файл
 ```
 
 ---
@@ -186,6 +159,6 @@ devops_roadmap/
 
 📧 [seeganfocus@gmail.com](mailto:seeganfocus@gmail.com) &nbsp;·&nbsp; 💬 [Telegram](https://t.me/seegan1) &nbsp;·&nbsp; 💼 [LinkedIn](https://www.linkedin.com/in/sergey-ganin-4433a343a)
 
-[📄 Download CV](Sergey_Ganin_CV.pdf)
+[📄 Download CV](CV/Sergey_Ganin_CV.pdf)
 
 </div>
