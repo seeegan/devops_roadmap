@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.MD",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
@@ -198,7 +198,7 @@
     "assets/Your Name Manga GIF.gif",
     "assets",
     "pages/Linux/Linux.md",
-    "README.MD",
+    "README.md",
     "weeks/week-1/jobs.md",
     "weeks/week-1/day3/day3.md",
     "weeks/week-1/day2/day2.md",
