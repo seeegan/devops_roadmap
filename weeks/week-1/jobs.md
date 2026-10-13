@@ -6,14 +6,17 @@
 
 ## Активные
 
-| Компания               | Позиция                                       | Ссылка                                                                                                                 | Дата       | Источник  | Статус  | Next action     | Заметки                                 |
-| ---------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------- | --------- | ------- | --------------- | --------------------------------------- |
-| SMARTSOFT LLC          | DevOps Engineer                               | [Link](https://www.linkedin.com/jobs/view/4474486207/)                                                                 | 10.10.2026 | LinkedIn  | Applied | Follow-up 14.10 | —                                       |
-| ChillBase              | Senior DevOps Engineer                        | [Link](https://www.linkedin.com/jobs/view/4450101555/)                                                                 | 10.10.2026 | LinkedIn  | Applied | Follow-up 14.10 | —                                       |
-| Social Discovery Group | Junior System Administrator (Monitoring Team) | [Link](https://social-discovery-ventures.breezy.hr/p/9f06b471696701-junior-system-administrator-monitoring-team/apply) | 10.10.2026 | Breezy    | Applied | Follow-up 14.10 | —                                       |
-| Broadridge             | Release Engineer                              | [Link](https://www.linkedin.com/jobs/view/4459182343/)                                                                 | 12.10.2026 | LinkedIn  | Applied | Follow-up 16.10 | —                                       |
-| BettingJobs            | DevOps Engineer                               | [Link](https://www.linkedin.com/jobs/view/4462514959/)                                                                 | 12.10.2026 | LinkedIn  | Applied | Follow-up 16.10 | —                                       |
-| Canonical              | DevOps Engineer                               | [Link](https://canonical.com/careers/4468036)                                                                          | 12.10.2026 | Site form | Applied | Ждать 5 дней    | Форма длинная, written interview дальше |
+| Компания               | Позиция                                       | Ссылка                                                                                                                 | Дата       | Источник                                                   | Статус     | Next action                                                                   | Заметки                                 |
+| ---------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------------------- | ---------- | ----------------------------------------------------------------------------- | --------------------------------------- |
+| SMARTSOFT LLC          | DevOps Engineer                               | [Link](https://www.linkedin.com/jobs/view/4474486207/)                                                                 | 10.10.2026 | LinkedIn                                                   | Applied    | Follow-up 14.10                                                               | —                                       |
+| ChillBase              | Senior DevOps Engineer                        | [Link](https://www.linkedin.com/jobs/view/4450101555/)                                                                 | 10.10.2026 | LinkedIn                                                   | Applied    | Follow-up 14.10                                                               | —                                       |
+| Social Discovery Group | Junior System Administrator (Monitoring Team) | [Link](https://social-discovery-ventures.breezy.hr/p/9f06b471696701-junior-system-administrator-monitoring-team/apply) | 10.10.2026 | Breezy                                                     | Написал HR | HR - intreview 19.10.2026 [Link](https://meet.google.com/ptz-sirc-wpx?hs=224) | —                                       |
+| Broadridge             | Release Engineer                              | [Link](https://www.linkedin.com/jobs/view/4459182343/)                                                                 | 12.10.2026 | LinkedIn                                                   | Applied    | Follow-up 16.10                                                               | —                                       |
+| BettingJobs            | DevOps Engineer                               | [Link](https://www.linkedin.com/jobs/view/4462514959/)                                                                 | 12.10.2026 | LinkedIn                                                   | Applied    | Follow-up 16.10                                                               | —                                       |
+| Canonical              | DevOps Engineer                               | [Link](https://canonical.com/careers/4468036)                                                                          | 12.10.2026 | Site form                                                  | Applied    | Ждать 5 дней                                                                  | Форма длинная, written interview дальше |
+| Wirestock              | Senior Site Reliability Engineer              | [Link](https://www.linkedin.com/jobs/view/4439839409/)                                                                 | 13.10.2026 | Site form                                                  | Applied    | Follow-up 20.10                                                               |                                         |
+| Colibrix One           | DevOps Engineer                               | [Link](https://www.linkedin.com/jobs/view/4476572593/)                                                                 | 13.10.2026 | Easy apply on LinkedIn                                     | Applied    | Follow-up 20.10                                                               |                                         |
+| NPO USA Inc            | Middleware Support Engineer                   | [Link](https://www.linkedin.com/jobs/view/4438292317/)                                                                 | 13.10.2026 | Site Form/ [Indeed](https://www.indeed.com/?from=indapply) | Applied    | Follow-up 20.10                                                               |                                         |
 
 ---
 
@@ -27,9 +30,9 @@
 
 ## Интервью в процессе
 
-| Компания | Позиция | Этап | Дата | Next action | Заметки |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| Компания               | Позиция                                       | Этап         | Дата       | Next action                                      | Заметки |
+| ---------------------- | --------------------------------------------- | ------------ | ---------- | ------------------------------------------------ | ------- |
+| Social Discovery Group | Junior System Administrator (Monitoring Team) | HR-interview | 19.10.2026 | После интервью вероятнее всего технический собес | —       |
 
 ---
 
@@ -43,10 +46,10 @@
 
 ## Статистика
 
-- Всего откликов: 6
-- Активных: 6
+- Всего откликов: 9
+- Активных: 9
 - Отказов: 0
-- Интервью: 0
+- Интервью: 1
 - Офферов: 0
 - Цель на неделю: 10–15 откликов
 
@@ -56,3 +59,4 @@
 
 - **SMARTSOFT** — писал на почту HR (не через форму).
 - **Canonical** — длинная форма, дальше будет written interview.
+- **Social Discovery Group** - HR интервью в понедельник
