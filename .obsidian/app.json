@@ -1,4 +1,6 @@
 {
   "strictLineBreaks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "attachmentFolderPath": "pages/attachments",
+  "useMarkdownLinks": true
 }
