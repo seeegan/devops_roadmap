@@ -2,5 +2,7 @@
   "strictLineBreaks": true,
   "showLineNumber": true,
   "attachmentFolderPath": "pages/attachments",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": false,
+  "newLinkFormat": "relative"
 }

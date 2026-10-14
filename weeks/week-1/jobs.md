@@ -17,6 +17,9 @@
 | Wirestock              | Senior Site Reliability Engineer              | [Link](https://www.linkedin.com/jobs/view/4439839409/)                                                                 | 13.10.2026 | Site form                                                  | Applied    | Follow-up 20.10                                                               |                                         |
 | Colibrix One           | DevOps Engineer                               | [Link](https://www.linkedin.com/jobs/view/4476572593/)                                                                 | 13.10.2026 | Easy apply on LinkedIn                                     | Applied    | Follow-up 20.10                                                               |                                         |
 | NPO USA Inc            | Middleware Support Engineer                   | [Link](https://www.linkedin.com/jobs/view/4438292317/)                                                                 | 13.10.2026 | Site Form/ [Indeed](https://www.indeed.com/?from=indapply) | Applied    | Follow-up 20.10                                                               |                                         |
+| PLATA                  | SRE                                           | [Link](https://plata.careers/vacancy/details?id=4953059008)                                                            | 14.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
+| EMCD                   | Platform Engineer                             | [Link](https://www.careers-page.com/emcd/job/X98RY5W3)                                                                 | 14.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
+| Andersen People        | Site Reliability Engineer                     | [Link](https://people-andersenlab.com/vacancy/2507811)                                                                 | 14.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
 
 ---
 
@@ -46,8 +49,8 @@
 
 ## Статистика
 
-- Всего откликов: 9
-- Активных: 9
+- Всего откликов: 11
+- Активных: 11
 - Отказов: 0
 - Интервью: 1
 - Офферов: 0
