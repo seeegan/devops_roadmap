@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Linux/systemd.md",
+                "file": "roadmap_plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systemd"
+              "title": "roadmap_plan"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/Linux/Process.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Process"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,9 +203,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "052001d307ac387c",
+  "active": "b5cd5aba40324c8a",
   "lastOpenFiles": [
     "pages/Linux/Process.md",
+    "roadmap_plan.md",
+    "README.md",
     "pages/Linux/systemd.md",
     "weeks/week-1/day3/day3.md",
     "pages/attachments/Pasted image 20261017004114.png",
@@ -218,7 +221,6 @@
     "pages/Linux/Основы bash-скриптов.md",
     "pages/Linux/SIG - сигналы в Linux.md",
     "pages/Linux/du,df,lsof.md",
-    "roadmap_plan.md",
     "pages/attachments/Pasted image 20261016185822.png",
     "pages/attachments/Pasted image 20261016184922.png",
     "pages/attachments/Pasted image 20261016184722.png",
@@ -233,7 +235,6 @@
     "CV/Sergey_Ganin_CV.pdf",
     "CV/cover_letter.txt.md",
     "STAR.md",
-    "README.md",
     "gif",
     "CV",
     "assets",

@@ -20,6 +20,8 @@
 
 Здесь я собираю конспекты по темам, ежедневные отчёты о практике и рабочие заметки. Репозиторий ведётся открыто — каждый день коммит.
 
+Цель — **не просто пройти темы, а понять механику**. Поэтому в конспектах много того, что обычно пропускают: полный цикл жизни процесса, syscalls, обработчики сигналов, внутренности systemd.
+
 ---
 
 ## О себе
@@ -43,15 +45,29 @@ DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и I
 
 ---
 
+## Что сейчас изучаю
+
+- **Week 1 — Processes, signals, systemd**
+  - fork/exec/exit/wait — полный цикл
+  - syscalls, pipe, fd inheritance
+  - сигналы, обработчики, SIG_IGN vs custom handler
+  - состояния процессов: R, S, D, Z, T
+  - zombie, re-parenting, D-state
+  - systemd: units, секции, targets, свой сервис
+
+- **Далее:** systemd advanced, сети L3–L7, firewall, TLS
+
+---
+
 ## Структура
 
 ```
 devops_roadmap/
 ├── pages/                  # База знаний
-│   ├── Linux/
-│   ├── Docker/
-│   ├── Ansible/
-│   └── Python/
+│   ├── Linux/              # Процессы, сигналы, systemd
+│   ├── Docker/             # Namespace, cgroup, runc
+│   ├── Ansible/            # Playbooks, roles
+│   └── Python/             # Основы, автоматизация
 │
 ├── weeks/                  # Дневник по дням
 │   └── week-1/
