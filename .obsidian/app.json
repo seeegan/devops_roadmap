@@ -4,5 +4,6 @@
   "attachmentFolderPath": "pages/attachments",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": false,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "promptDelete": false
 }

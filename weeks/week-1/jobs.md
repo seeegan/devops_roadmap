@@ -20,6 +20,7 @@
 | PLATA                  | SRE                                           | [Link](https://plata.careers/vacancy/details?id=4953059008)                                                            | 14.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
 | EMCD                   | Platform Engineer                             | [Link](https://www.careers-page.com/emcd/job/X98RY5W3)                                                                 | 14.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
 | Andersen People        | Site Reliability Engineer                     | [Link](https://people-andersenlab.com/vacancy/2507811)                                                                 | 14.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
+| Vizor Games            | Site Reliability Engineer                     | [Link](https://vizor-games.com/ru/jobs/site_reliability_engineer)                                                      | 15.10.2026 | Site Form                                                  | Applied    | Follow-up 21.10                                                               |                                         |
 
 ---
 
@@ -49,8 +50,8 @@
 
 ## Статистика
 
-- Всего откликов: 11
-- Активных: 11
+- Всего откликов: 12
+- Активных: 12
 - Отказов: 0
 - Интервью: 1
 - Офферов: 0
