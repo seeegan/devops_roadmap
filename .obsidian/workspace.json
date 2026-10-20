@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weeks/week-1/day4/day4.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day4"
+              "title": "README"
             }
           },
           {
@@ -218,8 +218,8 @@
   },
   "active": "f09dbfb29273ff17",
   "lastOpenFiles": [
-    "weeks/week-1/day3/day3.md",
     "weeks/week-1/day4/day4.md",
+    "weeks/week-1/day3/day3.md",
     "weeks/week-1/day4",
     "pages/Linux/systemd.md",
     "pages/Linux/Process.md",

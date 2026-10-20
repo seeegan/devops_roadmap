@@ -47,21 +47,26 @@ DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и I
 
 ## Что сейчас изучаю
 
-- **Week 1 — Processes, signals, systemd**
+- **✅ Week 1 — Processes, signals, systemd (Завершено)**
   - fork/exec/exit/wait — полный цикл
   - syscalls, pipe, fd inheritance
   - сигналы, обработчики, SIG_IGN vs custom handler
   - состояния процессов: R, S, D, Z, T
   - zombie, re-parenting, D-state
   - systemd: units, секции, targets, свой сервис
+  - `Restart`, `RestartSec`, `StartLimitBurst`
 
-- **Далее:** systemd advanced, сети L3–L7, firewall, TLS
+- **⏳ Week 2 — Networks L3–L4 (В процессе)**
+  - Модель OSI/TCP-IP
+  - IP-адресация, маски, CIDR
+  - Маршрутизация (`ip route`)
+  - TCP handshake, порты, DNS
 
 ---
 
 ## Структура
 
-```
+```text
 devops_roadmap/
 ├── pages/                  # База знаний
 │   ├── Linux/              # Процессы, сигналы, systemd
@@ -71,9 +76,10 @@ devops_roadmap/
 │
 ├── weeks/                  # Дневник по дням
 │   └── week-1/
-│       ├── day-1/
-│       ├── day-2/
-│       └── day-3/
+│       ├── day-1/          # Файловые системы, inode
+│       ├── day-2/          # df, du, lsof
+│       ├── day-3/          # Процессы, сигналы, systemd
+│       └── day-4/          # Сети L3-L4 (в процессе)
 │
 ├── gif/
 │   └── gif.gif             # Аватар
