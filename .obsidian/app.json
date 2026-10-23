@@ -1,9 +1,0 @@
-{
-  "strictLineBreaks": true,
-  "showLineNumber": true,
-  "attachmentFolderPath": "pages/attachments",
-  "useMarkdownLinks": true,
-  "alwaysUpdateLinks": false,
-  "newLinkFormat": "relative",
-  "promptDelete": false
-}
