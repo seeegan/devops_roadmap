@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "weeks/week-1/day4/day4.md",
+                "file": "pages/Linux/network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day4"
+              "title": "network"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "active": "3f8662c1d70253ec",
   "lastOpenFiles": [
+    "weeks/week-1/day4/day4.md",
     "pages/Linux/network.md",
     "pages/attachments/Pasted image 20261024025413.png",
     "pages/attachments/Pasted image 20261024011453.png",
@@ -214,7 +215,6 @@
     "CV/Sergey_Ganin_CV.pdf",
     "CV/cover_letter.txt.md",
     "pages/attachments/Pasted image 20261021232238.png",
-    "weeks/week-1/day4/day4.md",
     "weeks/week-1/day3/day3.md",
     "pages/Linux Practice/Let's begin!/Task 2.md",
     "pages/Linux Practice/Let's begin!/Task 1.md",
