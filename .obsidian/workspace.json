@@ -4,49 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e574f506f28ddeae",
+        "id": "5442f1051a42c961",
         "type": "tabs",
         "children": [
           {
-            "id": "f09dbfb29273ff17",
+            "id": "3f8662c1d70253ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "weeks/week-1/day4/day4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "91f4db96d9f4bc7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Linux/systemd.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "systemd"
-            }
-          },
-          {
-            "id": "964f68677d4f6607",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Linux/Process.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Process"
+              "title": "day4"
             }
           }
         ]
@@ -111,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 274.14856719970703
   },
   "right": {
     "id": "b1ac5aebaca16bfb",
@@ -216,13 +188,38 @@
       "bases:Create new base": false
     }
   },
-  "active": "f09dbfb29273ff17",
+  "active": "3f8662c1d70253ec",
   "lastOpenFiles": [
+    "pages/Linux/network.md",
+    "pages/attachments/Pasted image 20261024025413.png",
+    "pages/attachments/Pasted image 20261024011453.png",
+    "pages/Linux/Linux.md",
+    "pages/Linux/bash-scripts.md",
+    "pages/Linux/Coreutils и конвейеры. Обработка текста.md",
+    "Процессы в Linux.md",
+    "pages/Linux/Пользователи в Linux.md",
+    "pages/Linux/Основные каталоги в Linux.md",
+    "pages/Linux/Файловая система в Linux.md",
+    "pages/Linux/Права доступа в Linux.md",
+    "Команды в Linux.md",
+    "Процесс загрузки Linux.md",
+    "Для чего нужна переменная $PATH.md",
+    "pages/Linux/SIG - сигналы в Linux.md",
+    "TOP - вывод команды.md",
+    "pages/Linux/Load Average.md",
+    "pages/Linux/Inode_in_Linux.md",
+    "pages/Linux/du,df,lsof.md",
+    "pages/Linux/systemd.md",
+    "weeks/week-1/jobs.md",
+    "CV/Sergey_Ganin_CV.pdf",
+    "CV/cover_letter.txt.md",
+    "pages/attachments/Pasted image 20261021232238.png",
     "weeks/week-1/day4/day4.md",
     "weeks/week-1/day3/day3.md",
+    "pages/Linux Practice/Let's begin!/Task 2.md",
+    "pages/Linux Practice/Let's begin!/Task 1.md",
+    "pages/Linux Practice/От 0 до 100.md",
     "weeks/week-1/day4",
-    "pages/Linux/systemd.md",
-    "pages/Linux/Process.md",
     "pages/attachments/Pasted image 20261021030501.png",
     "pages/attachments/Pasted image 20261021023535.png",
     "pages/attachments/Pasted image 20261021020707.png",
@@ -230,36 +227,13 @@
     "pages/attachments/Pasted image 20261021014505.png",
     "pages/attachments/Pasted image 20261020200721.png",
     "pages/attachments/Pasted image 20261020200549.png",
-    "pages/attachments/Pasted image 20261020200509.png",
-    "pages/attachments/Pasted image 20261020200021.png",
-    "pages/attachments/Pasted image 20261020195826.png",
-    "CV/Sergey_Ganin_CV.pdf",
-    "weeks/week-1/jobs.md",
-    "roadmap_plan.md",
-    "README.md",
-    "pages/Linux/Inode_in_Linux.md",
-    "pages/Linux/Основы bash-скриптов.md",
-    "pages/Linux/SIG - сигналы в Linux.md",
-    "pages/Linux/du,df,lsof.md",
-    "pages/Linux/Load Average.md",
-    "pages/Linux/Linux.md",
-    "pages/Linux/Файловая система в Linux.md",
-    "pages/Linux/TOP - вывод команды.md",
-    "pages/Linux/Coreutils и конвейеры. Обработка текста.md",
-    "pages/Linux/Пользователи в Linux.md",
-    "pages/Linux/Каким образом можно вытащить из log-файла ip-адрес и отфильтровать его по количество вхождений.md",
-    "CV/cover_letter.txt.md",
-    "STAR.md",
     "gif",
     "CV",
     "assets",
-    "weeks/week-1/day2/day2.md",
-    "weeks/week-1/day1/day_1.md",
     "weeks/week-1/day1",
     "weeks/week-1/day3",
     "pages/attachments",
     "pages/images",
-    "weeks/week-1/day-1/day_1.md",
     "weeks/week-1/day2"
   ]
 }
