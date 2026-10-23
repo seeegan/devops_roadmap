@@ -58,7 +58,7 @@ DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и I
 
 - **⏳ Week 2 — Networks L3–L4 (В процессе)**
   - Модель OSI/TCP-IP
-  - IP-адресация, маски, CIDR
+  - IP-адресация, маски, CIDR, бинарный перевод
   - Маршрутизация (`ip route`)
   - TCP handshake, порты, DNS
 
@@ -69,7 +69,7 @@ DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и I
 ```text
 devops_roadmap/
 ├── pages/                  # База знаний
-│   ├── Linux/              # Процессы, сигналы, systemd
+│   ├── Linux/              # Процессы, сигналы, systemd, сети
 │   ├── Docker/             # Namespace, cgroup, runc
 │   ├── Ansible/            # Playbooks, roles
 │   └── Python/             # Основы, автоматизация
@@ -84,11 +84,8 @@ devops_roadmap/
 ├── gif/
 │   └── gif.gif             # Аватар
 │
-├── CV/
-│   └── Sergey_Ganin_CV.pdf # Резюме
-│
-├── jobs.md                 # Таблица откликов
-└── README.md               # Этот файл
+└── CV/
+    └── Sergey_Ganin_CV.pdf # Резюме
 ```
 
 ---
