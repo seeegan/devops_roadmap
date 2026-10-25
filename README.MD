@@ -20,13 +20,15 @@
 
 Здесь я собираю конспекты по темам, ежедневные отчёты о практике и рабочие заметки. Репозиторий ведётся открыто — каждый день коммит.
 
-Цель — **не просто пройти темы, а понять механику**. Поэтому в конспектах много того, что обычно пропускают: полный цикл жизни процесса, syscalls, обработчики сигналов, внутренности systemd.
+Цель — **не просто пройти темы, а понять механику**. Поэтому в конспектах много того, что обычно пропускают: полный цикл жизни процесса, syscalls, обработчики сигналов, внутренности systemd, архитектура Kubernetes и облачные паттерны.
 
 ---
 
 ## О себе
 
 DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и Infrastructure as Code. Основной фокус — GitOps, мониторинг и надёжность микросервисов.
+
+Сейчас активно углубляюсь в архитектуру высокодоступных систем, AWS и внутреннее устройство Kubernetes для перехода на Senior-позиции.
 
 Открыт к предложениям: удалённо или релокация.
 
@@ -54,13 +56,13 @@ DevOps / Cloud Platform Engineer. Работал с Kubernetes, Helm, CI/CD и I
   - состояния процессов: R, S, D, Z, T
   - zombie, re-parenting, D-state
   - systemd: units, секции, targets, свой сервис
-  - `Restart`, `RestartSec`, `StartLimitBurst`
 
-- **⏳ Week 2 — Networks L3–L4 (В процессе)**
-  - Модель OSI/TCP-IP
-  - IP-адресация, маски, CIDR, бинарный перевод
-  - Маршрутизация (`ip route`)
-  - TCP handshake, порты, DNS
+- **⏳ Senior Prep — Deep Dive (В процессе)**
+  - Linux internals: OOM Killer, cgroups, лимиты памяти
+  - Сети: маршрутизация, Gateway, TCP/UDP, DNS
+  - Kubernetes: архитектура Control Plane, CNI, Ingress, RBAC
+  - AWS: VPC, IAM, EKS, Terraform
+  - Наблюдаемость: SLI/SLO, Prometheus, Grafana
 
 ---
 
