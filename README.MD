@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="gif/gif.gif" width="180" height="180" alt="avatar" />
+<img src="CV/Photo.jpg" width="180" height="180" alt="avatar" />
 
 # Sergey Ganin
 
