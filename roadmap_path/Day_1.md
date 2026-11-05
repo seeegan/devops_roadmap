@@ -804,7 +804,7 @@ sudo mkdir /sys/fs/cgroup/my_test_group/my_test_child_group
 ```shell
 ls -la /sys/fs/cgroup/my_test_group/ | grep -e "cpu." -e "memory."
 ```
-`-e` позволяет нам в `grep` указать несколько шаблонов поиска, очень удобный флаг, стоит запомнить!!!
+`-e` (expression - выражение)  позволяет нам в `grep` указать несколько шаблонов поиска, очень удобный флаг, стоит запомнить!!!
 ![](../pages/attachments/Pasted%20image%2020261031010612.png)
 
 Теперь задаём лимиты для `memory.max`
@@ -835,3 +835,86 @@ sudo dmeg -T | grep -i "killed process" | tail -3
 ```
 ![](../pages/attachments/Pasted%20image%2020261031013848.png)
 Был убит родительский процесс нашего теста, процесс самого теста и заодно и наша сессия `SHELL`. Теперь можно сказать что мы понимаем что такое `cgroup`.
+
+
+##  Шаг 6.1 Шаблоны в `systemd` - (Templates)
+
+Шаблоны нужны в первую очередь для того, чтобы не писать каждый раз новый сервис. Допустим у нас есть сервис который делает бэкап и таких файлов или каталогов которые нужно бэкапнуть - 3 или больше. Писать сервис под каждый каталог который нужно бэкапнуть - бессмысленно, таких сервисом потом наплодиться и что тебе с ними делать?
+
+Именно для таких ситуаций и есть шаблоны в `systemd`, благодаря им мы можем задать переменную, которая будет означать нужный нам инстанс.
+
+#### Пример
+У нас есть три каталога `docs`,`music`,`photos` и мы хотим написать сервис который их бекапает, нам не нужно будет писать три сервиса для этих каталогов, нам будет достаточно его "Шаблонизировать". Выглядеть это будет следующим образом - `backup@.service`, вместо `backup-docs.service`/`backup-music.serice`/`backup-photos.service`. Внутри шаблона мы будем использовать переменную `%i` (Instance - экземпляр). Она поставляет именно то имя которое мы указываем при запуске.
+
+##### Немного практики
+Давайте напишем свой сервис и посмотрим как мы можем его шаблонизировать.
+
+Создадим в нашей домашней директории три каталога - `docs`, `photos`,`music`
+
+```shell
+mkdir docs photos music
+```
+![](../pages/attachments/Pasted%20image%2020261105215816.png)
+
+Пишем сервис:
+```ini
+[Unit]
+Description= Сервис бекапа %i каталога
+
+[Service]
+Type=oneshot
+ExecStart= /bin/tar -czf /home/user/backup-%i.tar.gz /home/user/%i/
+
+[Install]
+WantedBy= multi-user.target
+```
+
+Перечитываем все `systemd-utit`:
+```shell
+systemctl daemon-reload
+```
+
+Запускаем наш сервис указав имя того каталога который мы хотим бекапнуть:
+```shell
+systemctl start backup@docs.service
+```
+(Запустился без ошибок)
+
+Посмотрим что произошло в `journalctl`
+```shell
+journalctl -fu backup@docs.service
+```
+![](../pages/attachments/Pasted%20image%2020261105223107.png)
+
+
+Убедимся что бекап появился в нашей домашней директории:
+```shell
+ls -la /home/user | grep ".tar.gz"
+```
+![](../pages/attachments/Pasted%20image%2020261105223240.png)
+
+
+Проверим статус нашего сервиса
+```shell
+systemctl status backup@docs.service
+```
+![](../pages/attachments/Pasted%20image%2020261105223417.png)
+(Он мёртв так как тип `oneshot`, а как мы помним он не работает циклично, отработал и умер)
+
+Мы точно также теперь можем проверить на других каталогах
+
+`photos`
+```shell
+systemctl start backup@photos.service
+```
+
+`music`
+```shell
+systemctl start backup@music.service
+```
+
+```shell
+ls -la /home/user | grep -i ".tar.gz"
+```
+![](../pages/attachments/Pasted%20image%2020261106030832.png)
+
